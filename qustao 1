@@ -1,0 +1,23 @@
+inteiro matricula 
+    real nota 
+    cadeia conceito 
+    para(inteiro aluno = 1 ; aluno <= 5 ; aluno++){
+      escreva("\nqual sua matricula  ?")
+      leia(matricula)
+      escreva( "\nqual sua nota final ?")
+      leia( nota )
+      se( nota >= 0.0 e  nota <= 4.9 ){
+        conceito = "D"
+      } senao se(nota >= 5.0 e nota<= 6.0){
+        conceito = "C"
+      }senao se(nota >= 9.0 e nota <=10.0){
+        conceito = "A"
+      }
+      escreva("matricula" , matricula )
+      escreva("\nnota" , nota )
+      escreva("\nconceito " , conceito )
+        
+      
+
+    }
+    
